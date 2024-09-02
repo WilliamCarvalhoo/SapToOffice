@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>SapToOffice</title>
+    <link rel="stylesheet" href="FrontEndStyle.css">
+</head>
+<body>
+    <section id="appsize"> 
+        <div id="background">
+            <nav>
+                <ul>
+                    <div id="links">    
+                        <li> <a href = "#transfer"> Transferir </a></li>
+                        <li> <a href = "#examinar"> Examinar </a></li>
+                    </div>
+                </ul>
+            </nav>
+        </div>
+    </section>
+
+    <footer>
+
+    </footer>
+</body>
+</html>
+
+
+
+#background{
+    width: 400px;
+    height: 400px;
+    background-color: rgba(201, 241, 189, 0.856);
+    text-align: center;
+    color: inherit;
+    text-decoration: none;
+    border:solid,black,1px;
+    margin: 0 auto;
+    border-radius: 10px;
+}
+
+ul{
+    list-style-type: none;
+    text-align: center;
+       
+}
+a{
+    text-decoration: none;
+    color: inherit;
+}
+#links{
+    width: 80px;
+    height: 40px;
+    background-color: blue;
+
+}
