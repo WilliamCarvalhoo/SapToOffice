@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>SapToOffice</title>
+    <link rel="stylesheet" href="FrontEndStyle.css">
+</head>
+<body>
+    <div id="background">
+        <header>
+            <nav>
+                <ul>
+                    <li><a href="#transfer">Transferir</a></li>
+                    <li><a href="#examinar">Examinar</a></li>
+                </ul>
+            </nav>
+        </header>
+        
+        <main id="appsize">
+            <section>
+                <!-- Conteúdo adicional pode ser adicionado aqui -->
+            </section>
+        </main>
+
+        <footer>
+            <!-- Informações de rodapé aqui -->
+        </footer>
+    </div>
+</body>
+</html>
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: #f0f0f0;
+}
+
+#background {
+    width: 400px;
+    height: 400px;
+    background-color: rgba(201, 241, 189, 0.856);
+    text-align: center;
+    border: 1px solid black;
+    border-radius: 10px;
+    margin: auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+header {
+    background-color: #333;
+    padding: 10px 0;
+}
+
+nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+nav li {
+    display: inline;
+    margin: 0 15px;
+}
+
+nav a {
+    color: #fff;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+main {
+    flex-grow: 1;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+footer {
+    padding: 10px 0;
+    background-color: #333;
+    color: #fff;
+}
+
+
+
+
